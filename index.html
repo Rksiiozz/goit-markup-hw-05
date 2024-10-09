@@ -539,8 +539,67 @@
         <p class="modal-window-text"></p>
 
         <form>
-          <div class="first-form-container">
+          <!--Name container-->
+          <div class="form-container">
             <label class="name-label" for="user-name">Name</label>
+            <div class="input-container">
+              <input
+                class="name-input"
+                id="user-name"
+                name="user-name"
+                type="text"
+              />
+
+              <svg width="18" height="24" class="input-name-icon">
+                <use href="./images/icons.svg#icon-person" />
+              </svg>
+            </div>
+          </div>
+
+          <!--Phone container-->
+          <div class="form-container">
+            <label class="name-label">Phone</label>
+            <div class="input-container">
+              <input
+                class="name-input"
+                id="user-name"
+                name="user-name"
+                type="text"
+              />
+
+              <svg class="input-name-icon" width="18" height="24">
+                <use href="./images/icons.svg#icon-phone-black" />
+              </svg>
+            </div>
+          </div>
+
+          <!--Email container-->
+          <div class="form-container">
+            <label class="name-label">Email</label>
+            <div class="input-container">
+              <input
+                class="name-input"
+                id="user-name"
+                name="user-name"
+                type="text"
+              />
+
+              <svg class="input-name-icon" width="18" height="24">
+                <use href="./images/icons.svg#icon-email-black" />
+              </svg>
+            </div>
+          </div>
+
+          <!--Comment container-->
+          <div class="comment-container">
+            <label class="name-label" for="user-comment">Comment</label>
+
+            <textarea
+              id="user-comment"
+              name="user-comment"
+              placeholder="Text input"
+              class="textarea-comment"
+            ></textarea>
           </div>
         </form>
       </div>
