@@ -516,6 +516,27 @@ footer .container {
     background-color: #31d0aa;
 }
 
+.second-footer-container {
+    margin-right: 80px;
+}
+
+.subscribe-footer-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.subscribe-input {
+    padding: 8px 0px 8px 16px;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    width: 264px;
+    height: 40px;
+}
+
 .menu-nav {
 
     font-weight: 500;
@@ -525,8 +546,6 @@ footer .container {
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-
-
 
 .contact:hover,
 .contact:focus {
