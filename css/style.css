@@ -531,7 +531,7 @@ footer .container {
 }
 
 .second-footer-container {
-    margin-right: 80px;
+    margin-right: auto;
 }
 
 .subscribe-footer-text {
@@ -591,6 +591,12 @@ footer .container {
     border: none;
     border-radius: 4px;
 
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.subscribe-button:focus,
+.subscribe-button:hover {
+    background-color: #31d0aa;
 }
 
 .subscribe-svg {
@@ -598,6 +604,7 @@ footer .container {
 }
 
 .modal-window-container {
+    display: none;
     position: fixed;
     top: 0;
     left: 0;
@@ -607,6 +614,10 @@ footer .container {
     background-color: rgba(46, 47, 66, 0.4);
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.is-open {
+    display: block;
 }
 
 .modal-window {
@@ -772,6 +783,7 @@ footer .container {
     align-items: center;
     justify-content: center;
     fill: transparent;
+    margin-right: 8px;
 
 }
 
@@ -801,4 +813,9 @@ footer .container {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     border-radius: 5px;
     margin: 0 auto;
+}
+
+.form-button:hover,
+.form-button:focus {
+    background-color: #404BBF
 }
